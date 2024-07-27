@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Mustafa's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <script>
+            function showmsg(event) {
+                event.preventDefault();
+                var email = document.getElementById('email').value;
+                if (email.trim() === '') {
+                    alert('Please enter your email.');
+                } else {
+                    alert('Oops!\nAn error occurred.');
+                    document.getElementById('name').value = '';
+                    document.getElementById('message').value = '';
+                    document.getElementById('email').value = '';
+                }
+                
+            }
+        </script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#about">About Me</a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li><a href="#experience">Experience</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#certifications">Certifications</a></li>
+							<li><a href="#contact">Get in Touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Muhammad Mustafa</h1>
+							<p>Welcome to my portfolio website. I am a motivated Computer Science student, aspiring to become a Software Engineer. Explore my skills, experience, and projects below.</p>
+							<ul class="actions">
+								<li><a href="#about" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="wrapper style2 spotlights">
+						<section>
+                            <a href="#" class="image"><img src="images/pic01.png" alt=""  data-position="top center"/></a>
+                            <div class="content">
+								<div class="inner">
+									<h2>About Me</h2>
+									<p>My name is Muhammad Mustafa, and I am currently in my 7th semester of a BSc in Computer Science. I am passionate about software development and constantly strive to expand my knowledge and skills in this field.</p>
+									<ul class="actions">
+										<li><a href="#skills" class="button">My Skills</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Skills -->
+					<section id="skills" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Skills</h2>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Programming Languages</h3>
+									<p>C/C++, C#, Dot NET, Dart</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-database"></span>
+									<h3>Database Management</h3>
+									<p>SQL Server</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-file-alt"></span>
+									<h3>Office Applications</h3>
+									<p>MS Office</p>
+								</section>
+                                <section>
+                                    <span class="icon solid major fa-desktop"></span>
+                                    <h3>Desktop App Development</h3>
+                                    <p>Windows Forms applications</p>
+                                </section>
+							</div>
+						</div>
+					</section>
+
+				<!-- Experience -->
+					<section id="experience" class="wrapper style2 spotlights">
+						<section>
+							<div class="content">
+								<div class="inner">
+									<h2>Experience</h2>
+									<h3>Teaching</h3>
+									<p>6 months of teaching experience, where I developed strong communication and mentoring skills.</p>
+									<h3>SEO Internship</h3>
+									<p>3 months of SEO internship experience, enhancing my analytical abilities and adaptability.</p>
+									<h3>Freelance Projects</h3>
+									<p>Worked on various projects on Fiverr, expanding my technical expertise and client management skills.</p>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Projects -->
+                <section id="projects" class="wrapper style3 fade-up">
+                    <div class="inner">
+                        <h2>Projects</h2>
+                        <div class="features">
+                            <section>
+                                <span class="icon solid major fa-project-diagram"></span>
+                                <h3>Student Management System</h3>
+                                <p>Simple C++ project that can manage students and their data and save it a text file.</p>
+                            </section>
+                            <section>
+                                <span class="icon solid major fa-project-diagram"></span>
+                                <h3>Online Course Registration</h3>
+                                <p>Desktop Application that can manage students and courses with a limit of two enrollments per student.</p>
+                            </section>
+                            <section>
+                                <span class="icon solid major fa-project-diagram"></span>
+                                <h3>Learning Management System</h3>
+                                <p>Complete Desktop system for managing students, courses, teachers, and results with PDF report generation and attendance tracking.</p>
+                            </section>
+                            <section>
+                                <span class="icon solid major fa-project-diagram"></span>
+                                <h3>Email App (Gmail Clone)</h3>
+                                <p>Built an email Desktop app with features similar to Gmail, including registration, login, email management, and message snoozing.</p>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+                <!-- Certifications -->
+                <section id="certifications" class="wrapper style2 spotlights">
+                    <section>
+                        <div class="content">
+                            <div class="inner">
+                                <h2>Certifications</h2>
+                                <p>Udemy:</p>
+                                <ul>
+                                    <li>Practical Password Cracking - Office Files | Ethical Hacking</li>
+                                    <li>Mastering C & C++ Programming: From Fundamentals to Advanced</li>
+                                </ul>
+                                <p>DigiSkills:</p>
+                                <ul>
+                                    <li>SEO</li>
+                                    <li>WordPress</li>
+                                    <li>Freelancing</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+				<!-- Contact -->
+					<section id="contact" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Get in Touch</h2>
+							<p>Feel free to reach out to me via the contact form below or connect with me on social media.</p>
+							<div class="split style1">
+								<section>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><button class="send-button" onclick="showmsg(event)">Send Message</button></li>
+										</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Email</h3>
+											<a href="mailto:mustafa25008c@example.com">mustafa25008c@gmail.com</a>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<!--<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
+												<!--<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>-->
+												<li><a href="https://github.com/Mustafa25008" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<!--<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>-->
+												<li><a href="https://www.linkedin.com/in/muhammad-mustafa-946346304" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Muhammad Mustafa. All rights reserved.</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
